@@ -1,0 +1,24 @@
+.container {
+  background-color: white;
+  padding: 20px;
+}
+
+.main {
+  padding: 1rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 1rem;
+  padding-bottom: 10px;
+  padding-top: 0px;
+}
+
+.buttonPay{
+  position: fixed !important;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
